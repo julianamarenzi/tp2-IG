@@ -3,13 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title>
+        <title>Biografía LDR</title>
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
-    <body class="bg-stone-200">
+    <body class="bg-stone-200 text-stone-500">
         <!-- Menú de Navegación -->
         <nav class="bg-stone-200 text-stone-500">
-            <div class="container mx-auto flex flex-col items-center justify-around flex-wrap text-center">
+            <div class="container mx-auto flex flex-col items-center justify-around flex-wrap text-center text-md">
                 <!-- Hamburguesa -->
                 <button id='boton' class="flex lg:hidden my-3 items-center px-3 py-2 border rounded text-stone-950 border-stone-950">
                     <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
@@ -17,43 +17,84 @@
                 <!-- Menú -->
                 <div id="menu" class="hidden flex flex-col lg:flex lg:flex-row">
                     <!-- Casa -->
-                    <a href="../index.html" class="mt-2 lg:my-3 font-black hover:text-stone-800 lg:mx-12">
+                    <a href="../index.html" class="mt-2 lg:my-4 font-black hover:text-stone-800 lg:mx-12">
                         Inicio
                     </a>
                     <!-- Sección 1 -->
-                    <div id="uno" class="relative pt-2 lg:py-3 hover:text-stone-800">
-                        <a href="#" class="font-black lg:mx-12">
-                        Lana del Rey
-                        </a>
-                        <div id="sec1" class="hidden absolute top-10 left-1/2 transform -translate-x-1/2 bg-white flex flex-col rounded">
-                            <a href="bio.html" class="mx-8 my-1 p-1 hover:bg-stone-200 rounded">Biografía</a>
-                            <a href="disco.html" class="mx-8 mb-1 p-1 hover:bg-stone-200 rounded">Discografía</a>
-                            <a href="video.html" class="mx-8 mb-1 p-1 hover:bg-stone-200 rounded">Videografía</a>
-                            <a href="premios.html" class="mx-8 mb-1 p-1 hover:bg-stone-200 rounded">Premios</a>
-                        </div>
-                    </div>
+                    <a href="#" class="mt-2 lg:my-4 font-black hover:text-stone-800 lg:mx-12">
+                        ¿Quién es LDR?
+                    </a>
                     <!-- Sección 2 -->
-                    <div id="dos" class="relative pt-2 lg:py-3 hover:text-stone-800">
+                    <div id="dos" class="relative pt-2 lg:py-4 hover:text-stone-800">
                         <a href="../letras/index.html" class="font-black lg:mx-12">
-                        Letras
+                            Letras
                         </a>
-                        <div id="sec2" class="hidden absolute top-10 left-1/2 transform -translate-x-1/2 bg-white flex flex-col rounded">
-                            <a href="../letras/albumuno/index.html" class="mx-8 my-1 p-1 hover:bg-stone-200 rounded">NFR!</a>
-                            <a href="../letras/albumdos/index.html" class="mx-8 mb-1 p-1 hover:bg-stone-200 rounded">Ultraviolence</a>
-                            <a href="../letras/albumtres/index.html" class="mx-8 mb-1 p-1 hover:bg-stone-200 rounded">Born To Die</a>
+                        <div id="sec2" class="hidden absolute top-12 left-1/2 transform -translate-x-1/2 bg-white flex flex-col rounded">
+                            <a href="../letras/albumuno.html" class="mx-7 my-1 p-1 hover:bg-stone-200 rounded">NFR!</a>
+                            <a href="../letras/albumdos.html" class="mx-7 mb-1 p-1 hover:bg-stone-200 rounded">Ultraviolence</a>
+                            <a href="../letras/albumtres.html" class="mx-7 mb-1 p-1 hover:bg-stone-200 rounded">Born To Die</a>
                         </div>
                     </div>
                     <!-- Sección 3 -->
-                    <a href="../galeria/index.html" class="mt-2 lg:my-3 font-black hover:text-stone-800 lg:mx-12">
+                    <a href="galeria/index.html" class="mt-2 lg:my-4 font-black hover:text-stone-800 lg:mx-12">
                         Galería
                     </a>
                     <!-- Sección 4 -->
-                    <a href="../contacto/index.html" class="mt-2 lg:my-3 font-black hover:text-stone-800 lg:mx-12">
-                        Contacto
-                    </a>
+                    <div id="cuatro" class="relative py-2 lg:py-4 hover:text-stone-800">
+                        <a href="../contacto/index.html" class="font-black lg:mx-12">
+                            Contacto
+                        </a>
+                        <div id="sec4" class="hidden absolute top-12 left-1/2 transform -translate-x-1/2 bg-white flex flex-col rounded">
+                            <a href="../contacto/sobremi.html" class="mx-7 my-1 hover:bg-stone-200 rounded">Sobre la desarrolladora</a>
+                        </div>
+                    </div>
                 </div>
             </div>           
         </nav>
+        <header>
+            <div class="bg-[url('../img/principal.png')] py-40 flex flex-wrap justify-around items-center bg-center bg-no-repeat bg-auto">
+                <h1 class="text-5xl font-black tracking-tighter text-stone-200" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">LANA DEL REY</h1>
+            </div>
+        </header>
+        <main>
+            <div class="p-28">
+                <h2 class="font-serif italic text-4xl md:text-5xl text-center">Biografía</h2>
+            </div>
+            <div class="flex flex-col py-10 px-14 2xl:flex-row justify-center items-center bg-stone-500 2xl:py-20 2xl:px-64">
+                <img src="../img/ldruno.png" alt="lana del rey" class="flex-initial rounded-xl">
+                <div class="text-stone-200 text-lg px-5 pt-10 flex-grow 2xl:pt-0">
+                    <p>
+                        Elizabeth Woolridge Grant nació el 21 de junio de 1985 en Manhattan, ciudad de Nueva York, hija de Robert England Grant Jr., redactor publicitario de Grey Group, y Patricia Ann «Pat» (de soltera Hill), ejecutiva de cuentas en Grey Group. Tiene dos hermanos, Caroline «Chuck» Grant, que es hermano mayor y Charlie Grant, que es hermano menor. Fue criada como católica y es de ascendencia escocesa. Sus antepasados eran de Lanarkshire. Cuando tenía un año, la familia se mudó a Lake Placid, Nueva York. En Lake Placid, su padre trabajó para una empresa de muebles antes de convertirse en un inversionista de dominio empresarial; su madre trabajó como maestra de escuela. Allí, asistió a la escuela St. Agnes en sus años de primaria y comenzó a cantar en el coro de su iglesia, donde era cantora.
+                    </p> 
+                    <br>
+                    <p>
+                        Asistió a la escuela secundaria donde su madre enseñó durante un año, pero cuando tenía entre 14 y 15 años sus padres la enviaron a Kent School, un internado privado en Connecticut debido a su problema con el alcoholismo. Según confesó en una entrevista: «Esa es realmente la razón por la que me enviaron a un internado a los 14 años: para estar sobria». Su tío, un oficial de admisiones en la escuela, brindó ayuda financiera para enviarla. Según Grant, tuvo problemas para hacer amigos durante gran parte de su adolescencia y sus primeros años de adultez. Ella ha dicho que estuvo preocupada por la muerte desde una edad temprana y su papel en sus sentimientos de ansiedad y alienación.
+                    </p>
+                </div>
+            </div>
+            <div class="py-16 px-36">
+                <p class="font-serif italic text-xl text-center">
+                    «Cuando era muy joven, me sorprendió el hecho de que mi madre, mi padre y todos los que conocía iban a morir algún día, y yo también. Tuve una especie de crisis filosófica. No podía creer que fuéramos mortales. Por alguna razón, ese conocimiento eclipsó mi experiencia. Fui infeliz durante algún tiempo. Me metí en muchos problemas. Solía beber mucho. Ese fue un momento difícil en mi vida».
+                </p>
+            </div>
+            <div class="flex flex-col py-10 px-14 2xl:flex-row justify-center items-center bg-stone-500 2xl:py-20 2xl:px-64">
+                <div class="text-stone-200 text-lg px-5 pb-10 flex-grow  2xl:pb-0">
+                    <p>
+                        En el verano de 2001, cuando era alumna del Choate Rosemary Hall, un colegio privado de Connecticut que enviaba a sus alumnos a España para aprender español, cumplió 16 años en el avión dirección a Santander, donde permaneció varios meses.
+                    </p> 
+                    <br>
+                    <p>
+                        Después de graduarse de la Kent School, pasó un año viviendo en Long Island con su tía y su tío y trabajando como camareros. Durante este tiempo, el tío de Grant le enseñó a tocar la guitarra y ella «se dio cuenta de que probablemente podría escribir un millón de canciones con esos seis acordes». Poco después, comenzó a escribir canciones y actuar en clubes nocturnos de la ciudad bajo varios nombres como «Sparkle Jump Rope Queen» y «Lizzy Grant and the Phenomena». «Siempre estaba cantando, pero no planeaba seguirlo en serio», dijo. «Cuando llegué a la ciudad de Nueva York cuando tenía 18 años, comencé a tocar en clubes de Brooklyn. Tengo buenos amigos y fanáticos devotos en la escena clandestina, pero en ese momento tocábamos el uno para el otro, y eso fue todo».
+                    </p>
+                </div>
+                <img src="../img/ldrdos.png" alt="lana del rey" class="flex-initial rounded-xl">
+            </div>
+        </main>
+            <footer>
+                <div class="bg-stone-500">
+                    <p>Hola</p>
+                </div>
+            </footer>
         <script src="../js/navegador.js"></script>
     </body>
 </html>

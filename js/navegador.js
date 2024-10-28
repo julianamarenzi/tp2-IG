@@ -6,23 +6,6 @@ boton.addEventListener('click', () => {
     menu.classList.toggle('hidden')
 })
 
-// Sección 1
-const uno = document.querySelector('#uno');
-const sec1 = document.querySelector('#sec1');
-
-uno.addEventListener('mouseover', () => {
-    sec1.classList.remove('hidden');
-});
-uno.addEventListener('mouseleave', () => {
-    sec1.classList.add('hidden');
-});
-sec1.addEventListener('mouseover', () => {
-    sec1.classList.remove('hidden');
-});
-sec1.addEventListener('mouseleave', () => {
-    sec1.classList.add('hidden');
-});
-
 // Sección 2
 const dos = document.querySelector('#dos');
 const sec2 = document.querySelector('#sec2');
@@ -38,4 +21,21 @@ sec2.addEventListener('mouseover', () => {
 });
 sec2.addEventListener('mouseleave', () => {
     sec2.classList.add('hidden');
+});
+
+// Sección 4
+const cuatro = document.querySelector('#cuatro');
+const sec4 = document.querySelector('#sec4');
+
+cuatro.addEventListener('mouseover', () => {
+    sec4.classList.remove('hidden');
+});
+cuatro.addEventListener('mouseleave', () => {
+    sec4.classList.add('hidden');
+});
+sec4.addEventListener('mouseover', () => {
+    sec4.classList.remove('hidden');
+});
+sec4.addEventListener('mouseleave', () => {
+    sec4.classList.add('hidden');
 });
