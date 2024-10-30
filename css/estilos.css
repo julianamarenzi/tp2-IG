@@ -1,0 +1,11 @@
+*{
+    font-family: "Oswald", sans-serif;
+}
+
+.bg-custom{
+    background-color: #ebeaeb;
+}
+
+.img-custom{
+    max-width: 30px;
+}
