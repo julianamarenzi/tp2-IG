@@ -3,79 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lana del Rey</title>
+    <title>Inicio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
     <link href="../css/estilos.css" rel="stylesheet">
 </head>
-<body class="bg-custom">
-    <nav class="navbar navbar-expand-lg">
-        <div class="container fs-5 d-flex flex-column align-items-center">
-            <button class="navbar-toggler my-3" type="button" data-bs-toggle="collapse" data-bs-target="#navegador" aria-controls="navegador" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-md-center" id="navegador">
-                <ul class="navbar-nav d-flex flex-column align-items-center flex-lg-row">
-                    <li class="nav-item mx-4">
-                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+<body class="fondo">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container fs-5 d-flex flex-column align-items-center">
+                <button class="navbar-toggler my-3" type="button" data-bs-toggle="collapse" data-bs-target="#navegador">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-md-center" id="navegador">
+                    <ul class="navbar-nav d-flex flex-column align-items-center flex-lg-row">
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link active" aria-current="page" href="#">Lana del Rey</a>
+                        </li>
+                        <li class="nav-item dropdown mx-4 border-none d-flex flex-column align-items-center">
+                            <button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Música</button>
+                            <ul class="dropdown-menu border-0">
+                                <li><a class="dropdown-item" href="../musica/index.html">Análisis de sus álbumes</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="../musica/colaboraciones.html">Colaboraciones</a></li>
+                                <li><a class="dropdown-item" href="../musica/influencias.html">Influencias</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="../galeria/index.html">Galería</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="../contacto/index.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <div class="imagen-fondo d-flex align-items-center justify-content-center rounded-4">
+                <h1 class="text-white display-3 fw-semibold">Lana del Rey</h1>
+            </div>
+        </header>
+        <main class="fs-5">
+            <section class="d-flex flex-row flex-wrap flex-lg-nowrap justify-content-center align-items-center gap-4 p-5 my-4">
+                <div>
+                    <h2>Infancia y adolescencia</h2>
+                    <p>
+                        Lana Del Rey creció en una familia de clase media en Lake Placid, Nueva York. Desde muy joven, mostró interés por el arte y la música. Se educó en el entorno privilegiado de una familia con vínculos culturales; su padre, un ejecutivo de telecomunicaciones, y su madre, una profesora de escuela, fomentaron su creatividad. Durante su adolescencia, comenzó a escribir canciones y a tocar la guitarra.
+                    </p>
+                    <p>
+                        A los 15 años, se trasladó a Nueva York para asistir a la Universidad de Fordham, donde estudió literatura y comenzó a actuar en clubes locales. En esta etapa, adoptó el nombre artístico de Lana Del Rey, inspirado en su amor por el cine clásico y la cultura de la costa oeste.
+                    </p>
+                </div>
+                <div class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner p-3">
+                        <div class="carousel-item active">
+                            <img src="../img/fotouno.png" class="d-block rounded-4" alt="Lana del Rey">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/fotodos.png" class="d-block rounded-4" alt="Lana del Rey">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/fototres.png" class="d-block rounded-4" alt="Lana del Rey">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/fotocuatro.png" class="d-block rounded-4" alt="Lana del Rey">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/fotocinco.png" class="d-block rounded-4" alt="Lana del Rey">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="d-flex flex-row flex-wrap flex-lg-nowrap justify-content-center align-items-center gap-4 p-5 mb-4 rounded-4" id="vida">
+                <div class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner p-3">
+                        <div class="carousel-item active">
+                            <img src="../img/fotoseis.png" class="d-block rounded-4" alt="Lana del Rey">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/fotosiete.png" class="d-block rounded-4" alt="Lana del Rey">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/fotoocho.png" class="d-block rounded-4" alt="Lana del Rey">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/fotonueve.png" class="d-block rounded-4" alt="Lana del Rey">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2>Primeros trabajos y ascenso a la fama</h2>
+                    <p>
+                        En 2010, Lana lanzó su álbum debut, Lana Del Ray, que pasó desapercibido. Sin embargo, su sonido distintivo y su estética cinematográfica comenzaron a atraer la atención. En 2011, lanzó el sencillo "Video Games," que se convirtió en un fenómeno viral, llevando su música a un público más amplio. Este éxito fue seguido por el lanzamiento de su segundo álbum, Born to Die, en enero de 2012.
+                    </p>
+                    <p>
+                        Born to Die fue un gran éxito comercial, con más de 7 millones de copias vendidas en todo el mundo. La producción cinematográfica y las letras melancólicas resonaron con muchos oyentes, y sencillos como "Born to Die," "Blue Jeans," y "Summertime Sadness" solidificaron su estatus en la industria musical.
+                    </p>
+                </div>
+            </section>
+        </main>
+        <footer class="nav justify-content-center mt-5 pt-3 borde-border-top">
+            <div>
+                <ul class="list-unstyled d-flex flex-wrap justify-content-center">
+                    <li class="my-1 ms-3">
+                        <a href="https://open.spotify.com/intl-es/artist/00FQb4jTyendYWaN8pK0wa?play=true&utm_source=open.spotify.com&utm_medium=open" class="mx-2">
+                            <img src="../img/logosp.png" alt="Spotify" class="imagen">
+                        </a>
                     </li>
-                    <li class="nav-item mx-4">
-                        <a class="nav-link active" aria-current="page" href="#">Lana del Rey</a>
+                    <li class="my-1 ms-3">
+                        <a href="https://www.youtube.com/lanadelrey" class="mx-2">
+                            <img src="../img/logoyt.png" alt="YouTube" class="imagen">
+                        </a>
                     </li>
-                    <li class="nav-item dropdown mx-4 border-none d-flex flex-column align-items-center">
-                        <button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Música</button>
-                        <ul class="dropdown-menu border-0">
-                            <li><a class="dropdown-item" href="../musica/index.html">Análisis de sus álbumes</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="../musica/colaboraciones.html">Colaboraciones</a></li>
-                            <li><a class="dropdown-item" href="../musica/influencias.html">Influencias</a></li>
-                        </ul>
+                    <li class="my-1 ms-3">
+                        <a href="https://www.tiktok.com/@lanadelrey" class="mx-2">
+                            <img src="../img/logott.png" alt="TikTok" class="imagen">
+                        </a>
                     </li>
-                    <li class="nav-item mx-4">
-                        <a class="nav-link" href="../galeria/index.html">Galería</a>
+                    <li class="my-1 ms-3">
+                        <a href="https://www.instagram.com/honeymoon/" class="mx-2">
+                            <img src="../img/logoig.png" alt="Instagram" class="imagen">
+                        </a>
                     </li>
-                    <li class="nav-item mx-4">
-                        <a class="nav-link" href="../contacto/index.html">Contacto</a>
+                    <li class="my-1 ms-3">
+                        <a href="https://www.facebook.com/lanadelrey" class="mx-2">
+                            <img src="../img/logofb.png" alt="Facebook" class="imagen">
+                        </a>
                     </li>
                 </ul>
             </div>
-        </div>
-    </nav>
-    <header>
-    </header>
-    <footer class="nav justify-content-center mt-5">
-        <div class="container">
-            <ul class="list-unstyled d-flex flex-wrap justify-content-center">
-                <li class="my-1 ms-3">
-                    <a href="https://open.spotify.com/intl-es/artist/00FQb4jTyendYWaN8pK0wa?play=true&utm_source=open.spotify.com&utm_medium=open" class="mx-2">
-                        <img src="../img/logosp.png" alt="Spotify" class="img-custom">
-                    </a>
-                </li>
-                <li class="my-1 ms-3">
-                    <a href="https://www.youtube.com/lanadelrey" class="mx-2">
-                        <img src="../img/logoyt.png" alt="YouTube" class="img-custom">
-                    </a>
-                </li>
-                <li class="my-1 ms-3">
-                    <a href="https://www.tiktok.com/@lanadelrey" class="mx-2">
-                        <img src="../img/logott.png" alt="TikTok" class="img-custom">
-                    </a>
-                </li>
-                <li class="my-1 ms-3">
-                    <a href="https://www.instagram.com/honeymoon/" class="mx-2">
-                        <img src="../img/logoig.png" alt="Instagram" class="img-custom">
-                    </a>
-                </li>
-                <li class="my-1 ms-3">
-                    <a href="https://www.facebook.com/lanadelrey" class="mx-2">
-                        <img src="../img/logofb.png" alt="Facebook" class="img-custom">
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </footer>
+        </footer>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -10,72 +10,124 @@
     <link href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
     <link href="css/estilos.css" rel="stylesheet">
 </head>
-<body class="bg-custom">
-    <nav class="navbar navbar-expand-lg">
-        <div class="container fs-5 d-flex flex-column align-items-center">
-            <button class="navbar-toggler my-3" type="button" data-bs-toggle="collapse" data-bs-target="#navegador" aria-controls="navegador" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-md-center" id="navegador">
-                <ul class="navbar-nav d-flex flex-column align-items-center flex-lg-row">
-                    <li class="nav-item mx-4">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+<body class="fondo">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container fs-5 d-flex flex-column align-items-center">
+                <button class="navbar-toggler my-3" type="button" data-bs-toggle="collapse" data-bs-target="#navegador">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-md-center" id="navegador">
+                    <ul class="navbar-nav d-flex flex-column align-items-center flex-lg-row">
+                        <li class="nav-item mx-4">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="ldr/index.html">Lana del Rey</a>
+                        </li>
+                        <li class="nav-item dropdown mx-4 border-none d-flex flex-column align-items-center">
+                            <button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Música</button>
+                            <ul class="dropdown-menu border-0">
+                                <li><a class="dropdown-item" href="musica/index.html">Análisis de sus álbumes</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="musica/colaboraciones.html">Colaboraciones</a></li>
+                                <li><a class="dropdown-item" href="musica/influencias.html">Influencias</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="galeria/index.html">Galería</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="contacto/index.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <div class="imagen-fondo d-flex align-items-center justify-content-center rounded-4">
+                <h1 class="text-white display-3 fw-semibold">Lana del Rey</h1>
+            </div>
+            <div class="d-flex flex-row flex-wrap flex-lg-nowrap justify-content-center align-items-center gap-5 m-5 text-center">
+                <div>
+                    <img src="img/iconuno.png" alt="Lana del Rey" class="pb-3">
+                    <p>Descubre la fascinante historia detrás de la voz más enigmática de nuestra era.</p>
+                    <a href="ldr/index.html" class="btn boton">Ver más.</a>
+                </div>
+                <div>
+                    <img src="img/icondos.png" alt="Lana del Rey" class="pb-3">
+                    <p>Sumérgete en la melodía de sus sueños y desamores: cada canción cuenta una historia.</p>
+                    <a href="musica/index.html" class="btn boton">Ver más.</a>
+                </div>
+                <div>
+                    <img src="img/icontres.png" alt="Lana del Rey" class="pb-3">
+                    <p>Explora un viaje visual que captura la esencia y la belleza de Lana en cada instante.</p>
+                    <a href="galeria/index.html" class="btn boton">Ver más.</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="d-flex flex-row flex-wrap flex-lg-nowrap justify-content-center align-items-center gap-4 p-3 rounded-4" id="lanita">
+                <img src="img/uno.png" class="rounded-4" alt="Lana del Rey">
+                <img src="img/dos.png" class="rounded-4" alt="Lana del Rey">
+                <p class="fs-5">Lana Del Rey ha revolucionado el panorama musical con su estilo único y su profunda capacidad para evocar emociones. Sus letras, a menudo melancólicas y poéticas, nos transportan a un mundo donde el amor y la nostalgia coexisten. A través de su música, nos invita a reflexionar sobre la vida, la belleza y la complejidad de las relaciones humanas. Su influencia se siente en cada rincón de la cultura pop actual, convirtiéndola en un ícono de nuestra era.</p>
+            </div>
+            <section class="my-5">
+                <h2 class="text-center">Últimos Álbumes</h2>
+                <div class="d-flex flex-row flex-wrap flex-lg-nowrap justify-content-center gap-4 p-3">
+                    <div class="card border-0" style="width: 350px">
+                        <a href="https://open.spotify.com/intl-es/album/5HOHne1wzItQlIYmLXLYfZ?si=im8fzzc0QPaMb1YT3-ht0A"><img src="img/discouno.png" class="card-img-top" alt="Álbum de Lana del Rey">
+                        <div class="card-body"></a>
+                            <p class="card-text">"Did you know that there's a tunnel under Ocean Blvd" es el noveno álbum de estudio de Lana Del Rey, lanzado en marzo de 2023.</p>
+                        </div>
+                    </div>
+                    <div class="card border-0" style="width: 350px">
+                        <a href="https://open.spotify.com/album/2wwCc6fcyhp1tfY3J6Javr?si=-ilAiXGfSA2-dMCujbAFtg"><img src="img/discodos.png" class="card-img-top" alt="Álbum de Lana del Rey"></a>
+                        <div class="card-body">
+                            <p class="card-text">"Blue Banisters" es el séptimo álbum de estudio de Lana Del Rey, lanzado en octubre de 2021.</p>
+                        </div>
+                    </div>
+                    <div class="card border-0" style="width: 350px">
+                        <a href="https://open.spotify.com/album/6QeosPQpJckkW0Obir5RT8?si=zPiibgZGR8-MCHIve6wyRg"><img src="img/discotres.png" class="card-img-top" alt="Álbum de Lana del Rey"></a>
+                        <div class="card-body">
+                            <p class="card-text">"Chemtrails Over the Country Club" es el sexto álbum de estudio de Lana Del Rey, lanzado en marzo de 2021.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="nav justify-content-center mt-5 pt-3 borde-border-top">
+            <div>
+                <ul class="list-unstyled d-flex flex-wrap justify-content-center">
+                    <li class="my-1 ms-3">
+                        <a href="https://open.spotify.com/intl-es/artist/00FQb4jTyendYWaN8pK0wa?play=true&utm_source=open.spotify.com&utm_medium=open" class="mx-2">
+                            <img src="img/logosp.png" alt="Spotify" class="imagen">
+                        </a>
                     </li>
-                    <li class="nav-item mx-4">
-                        <a class="nav-link" href="ldr/index.html">Lana del Rey</a>
+                    <li class="my-1 ms-3">
+                        <a href="https://www.youtube.com/lanadelrey" class="mx-2">
+                            <img src="img/logoyt.png" alt="YouTube" class="imagen">
+                        </a>
                     </li>
-                    <li class="nav-item dropdown mx-4 border-none d-flex flex-column align-items-center">
-                        <button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Música</button>
-                        <ul class="dropdown-menu border-0">
-                            <li><a class="dropdown-item" href="musica/index.html">Análisis de sus álbumes</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="musica/colaboraciones.html">Colaboraciones</a></li>
-                            <li><a class="dropdown-item" href="musica/influencias.html">Influencias</a></li>
-                        </ul>
+                    <li class="my-1 ms-3">
+                        <a href="https://www.tiktok.com/@lanadelrey" class="mx-2">
+                            <img src="img/logott.png" alt="TikTok" class="imagen">
+                        </a>
                     </li>
-                    <li class="nav-item mx-4">
-                        <a class="nav-link" href="galeria/index.html">Galería</a>
+                    <li class="my-1 ms-3">
+                        <a href="https://www.instagram.com/honeymoon/" class="mx-2">
+                            <img src="img/logoig.png" alt="Instagram" class="imagen">
+                        </a>
                     </li>
-                    <li class="nav-item mx-4">
-                        <a class="nav-link" href="contacto/index.html">Contacto</a>
+                    <li class="my-1 ms-3">
+                        <a href="https://www.facebook.com/lanadelrey" class="mx-2">
+                            <img src="img/logofb.png" alt="Facebook" class="imagen">
+                        </a>
                     </li>
                 </ul>
             </div>
-        </div>
-    </nav>
-    <header>
-    </header>
-    <footer class="nav justify-content-center mt-5">
-        <div class="container">
-            <ul class="list-unstyled d-flex flex-wrap justify-content-center">
-                <li class="my-1 ms-3">
-                    <a href="https://open.spotify.com/intl-es/artist/00FQb4jTyendYWaN8pK0wa?play=true&utm_source=open.spotify.com&utm_medium=open" class="mx-2">
-                        <img src="img/logosp.png" alt="Spotify" class="img-custom">
-                    </a>
-                </li>
-                <li class="my-1 ms-3">
-                    <a href="https://www.youtube.com/lanadelrey" class="mx-2">
-                        <img src="img/logoyt.png" alt="YouTube" class="img-custom">
-                    </a>
-                </li>
-                <li class="my-1 ms-3">
-                    <a href="https://www.tiktok.com/@lanadelrey" class="mx-2">
-                        <img src="img/logott.png" alt="TikTok" class="img-custom">
-                    </a>
-                </li>
-                <li class="my-1 ms-3">
-                    <a href="https://www.instagram.com/honeymoon/" class="mx-2">
-                        <img src="img/logoig.png" alt="Instagram" class="img-custom">
-                    </a>
-                </li>
-                <li class="my-1 ms-3">
-                    <a href="https://www.facebook.com/lanadelrey" class="mx-2">
-                        <img src="img/logofb.png" alt="Facebook" class="img-custom">
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </footer>
+        </footer>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

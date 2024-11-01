@@ -2,10 +2,38 @@
     font-family: "Oswald", sans-serif;
 }
 
-.bg-custom{
-    background-color: #ebeaeb;
+.fondo{
+    background-color: #ebe6d8b6;
 }
 
-.img-custom{
+.imagen-fondo{
+    background-image: url(../img/portada.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.boton{
+    background-color: #9d9a90b6;
+}
+
+.boton:hover{
+    background-color: #9d9a9073;
+}
+
+#lanita, #vida {
+    background-color: #9d9a90b6;
+}
+
+#lanita p{
+    width: 500px;
+}
+
+.borde-border-top{
+    border-top: 2px solid #9d9a9031;
+}
+
+.imagen{
     max-width: 30px;
 }
+
