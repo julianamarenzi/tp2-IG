@@ -18,16 +18,29 @@
 }
 
 .boton:hover{
-    background-color: #9d9a9073;
+    background-color: #4d4b4673;
 }
 
-#lanita, #vida {
+#lanita, #vida, footer {
     background-color: #9d9a90b6;
 }
 
 #lanita p{
     width: 500px;
 }
+
+.zoom {
+    transition: transform 0.3s ease;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.lanaytw{
+    background-color: #ebe6d800;
+}
+
 
 .borde-border-top{
     border-top: 2px solid #9d9a9031;

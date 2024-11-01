@@ -3,79 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Música</title>
+    <title>Música - Análisis de Álbumes</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
     <link href="../css/estilos.css" rel="stylesheet">
 </head>
-<body class="bg-custom">
-    <nav class="navbar navbar-expand-lg">
-        <div class="container fs-5 d-flex flex-column align-items-center">
-            <button class="navbar-toggler my-3" type="button" data-bs-toggle="collapse" data-bs-target="#navegador" aria-controls="navegador" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-md-center" id="navegador">
-                <ul class="navbar-nav d-flex flex-column align-items-center flex-lg-row">
-                    <li class="nav-item mx-4">
-                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+<body class="fondo">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container fs-5 d-flex flex-column align-items-center">
+                <button class="navbar-toggler my-3" type="button" data-bs-toggle="collapse" data-bs-target="#navegador">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-md-center" id="navegador">
+                    <ul class="navbar-nav d-flex flex-column align-items-center flex-lg-row">
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="../ldr/index.html">Lana del Rey</a>
+                        </li>
+                        <li class="nav-item dropdown mx-4 border-none d-flex flex-column align-items-center">
+                            <button class="nav-link dropdown-toggle active" type="button" data-bs-toggle="dropdown" aria-expanded="false">Música</button>
+                            <ul class="dropdown-menu border-0">
+                                <li><a class="dropdown-item active" aria-current="page" href="#">Análisis de sus álbumes</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="colaboraciones.html">Colaboraciones</a></li>
+                                <li><a class="dropdown-item" href="influencias.html">Influencias</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="../galeria/index.html">Galería</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="../contacto/index.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <div class="imagen-fondo d-flex align-items-center justify-content-center rounded-4">
+                <h1 class="text-white display-3 fw-semibold">Lana del Rey</h1>
+            </div>
+        </header>
+        <main class="fs-5">
+            <section>
+                <h2 class="text-center p-5">La Narrativa Musical de Lana Del Rey: Un Análisis de sus Mejores Álbumes</h2>
+                <div class="d-flex flex-row flex-wrap flex-lg-nowrap justify-content-center  gap-4 mx-5 mb-5 px-4">
+                    <div class="card border-0 col-4">
+                        <iframe src="https://open.spotify.com/embed/album/4vXt6IpMcSnqonljffWlMI?utm_source=generator" width="100%" height="352" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        <div>
+                            <div class="card-body">
+                                <h5 class="card-title">Born to Die (2012)</h5>
+                                <p class="card-text">Born to Die es el álbum que catapultó a Lana Del Rey a la fama global. Su sonido melancólico combina elementos de pop, rock y hip-hop, con una producción rica en instrumentación orquestal y sintetizadores. Las letras, profundamente poéticas, exploran temas de amor perdido, nostalgia y desilusión. Canciones como "Video Games" y "Born to Die" se destacan por su atmósfera cinematográfica, presentando una narrativa que evoca imágenes vívidas de romance y tristeza. Este álbum estableció su estética distintiva y su capacidad para contar historias emocionales, convirtiéndola en una voz única en la música contemporánea.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 col-4">
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2e3doCyb0qn2JeKLsh2Xbo?utm_source=generator" width="100%" height="352" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        <div>
+                            <div class="card-body">
+                                <h5 class="card-title">Ultraviolence (2014)</h5>
+                                <p class="card-text">Ultraviolence marca un giro más oscuro en la carrera de Lana Del Rey, con un sonido más crudo y rockero, producido por Dan Auerbach. Este álbum se centra en la toxicidad en las relaciones, explorando la violencia emocional y la vulnerabilidad. Con canciones como "West Coast" y "Shades of Cool", Lana mezcla ritmos suaves con letras intensas que abordan el dolor y la pasión. La producción más orgánica permite que su voz brille, creando un ambiente denso y cautivador. Este trabajo resalta su crecimiento como artista y su habilidad para adentrarse en temas complejos y oscuros.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 col-4">
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7xYiTrbTL57QO0bb4hXIKo?utm_source=generator" width="100%" height="352" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        <div>
+                            <div class="card-body">
+                                <h5 class="card-title">Lust for Life (2017)</h5>
+                                <p class="card-text">Con Lust for Life, Lana Del Rey presenta una obra más optimista, aunque sigue siendo introspectiva. El álbum incluye colaboraciones con artistas como The Weeknd y A$AP Rocky, que aportan frescura a su sonido característico. Las letras abordan el amor, la libertad y la lucha por la esperanza en un mundo caótico. Canciones como "Love" y "Lust for Life" transmiten un sentido de renovación y conexión, mezclando ritmos vibrantes con una producción rica en melodías. Este álbum no solo reafirma su lugar en la música contemporánea, sino que también muestra su evolución hacia un sonido más accesible y diverso.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row flex-wrap flex-lg-nowrap justify-content-center  gap-4 mx-5 px-4">
+                    <div class="card border-0 col-4">
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5XpEKORZ4y6OrCZSKsi46A?utm_source=generator" width="100%" height="352" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        <div>
+                            <div class="card-body">
+                                <h5 class="card-title">Norman Fucking Rockwell (2019)</h5>
+                                <p class="card-text">Este álbum es considerado uno de los trabajos más aclamados de Lana Del Rey, consolidando su estatus como una de las voces más relevantes de su generación. Norman Fucking Rockwell combina una producción minimalista con letras introspectivas y agudas que abordan la complejidad de las relaciones modernas, la identidad y la cultura estadounidense. Canciones como "Mariners Apartment Complex" y "Doin' Time" muestran su habilidad para mezclar el humor con la melancolía, mientras que la producción, a menudo orquestal, crea una atmósfera íntima. Este álbum destaca su madurez artística y su capacidad para reflexionar sobre su lugar en el mundo contemporáneo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 col-4">
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2wwCc6fcyhp1tfY3J6Javr?utm_source=generator" width="100%" height="352" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        <div>
+                            <div class="card-body">
+                                <h5 class="card-title">Blue Banisters (2021)</h5>
+                                <p class="card-text">Blue Banisters representa una continuación del estilo introspectivo y narrativo de Lana, explorando temas como la identidad, la pérdida y la búsqueda de la verdad personal. Con un sonido que combina elementos de folk y pop, este álbum es más acústico y emocional. Canciones como "Text Book" y "Wildflower Wildfire" demuestran su vulnerabilidad y profundidad lírica, capturando momentos de reflexión y autodescubrimiento. La producción es más sencilla, permitiendo que su voz y sus historias resalten, lo que resulta en una obra íntima y resonante. Blue Banisters reafirma su compromiso con la autenticidad y su habilidad para conectar con sus oyentes a un nivel profundo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 col-4">
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6QeosPQpJckkW0Obir5RT8?utm_source=generator" width="100%" height="352" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        <div>
+                            <div class="card-body">
+                                <h5 class="card-title">Chemtrails over the Country Club (2021)</h5>
+                                <p class="card-text">Chemtrails over the Country Club marca una nueva etapa en la carrera de Lana Del Rey, fusionando pop, folk y country para crear un sonido nostálgico y cálido. Este álbum se centra en temas de identidad, nostalgia y la búsqueda de autenticidad, reflejando la dualidad entre su vida pública y su deseo de privacidad. Canciones como "Let Me Love You Like a Woman" y "Chemtrails over the Country Club" presentan letras introspectivas que evocan una mezcla de idealismo y realidad. La producción más orgánica permite que su voz y emociones resalten, haciendo de este trabajo un viaje personal y resonante que reafirma su madurez artística.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="nav justify-content-center mt-5 px-4 pt-4 rounded-top-4">
+            <div class="d-flex flex-row flex-wrap justify-content-center flex-lg-nowrap gap-4 p-3">
+                <h4 class="text-center">Seguila en todas sus redes!</h4>
+                <ul class="list-unstyled d-flex flex-wrap">
+                    <li class="my-1 ms-3">
+                        <a href="https://open.spotify.com/intl-es/artist/00FQb4jTyendYWaN8pK0wa?play=true&utm_source=open.spotify.com&utm_medium=open" class="mx-2">
+                            <img src="../img/logosp.png" alt="Spotify" class="imagen">
+                        </a>
                     </li>
-                    <li class="nav-item mx-4">
-                        <a class="nav-link" href="../ldr/index.html">Lana del Rey</a>
+                    <li class="my-1 ms-3">
+                        <a href="https://www.youtube.com/lanadelrey" class="mx-2">
+                            <img src="../img/logoyt.png" alt="YouTube" class="imagen">
+                        </a>
                     </li>
-                    <li class="nav-item dropdown mx-4 border-none d-flex flex-column align-items-center">
-                        <button class="nav-link dropdown-toggle active" type="button" data-bs-toggle="dropdown" aria-expanded="false">Música</button>
-                        <ul class="dropdown-menu border-0">
-                            <li><a class="dropdown-item active" aria-current="page" href="#">Análisis de sus álbumes</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="colaboraciones.html">Colaboraciones</a></li>
-                            <li><a class="dropdown-item" href="influencias.html">Influencias</a></li>
-                        </ul>
+                    <li class="my-1 ms-3">
+                        <a href="https://www.tiktok.com/@lanadelrey" class="mx-2">
+                            <img src="../img/logott.png" alt="TikTok" class="imagen">
+                        </a>
                     </li>
-                    <li class="nav-item mx-4">
-                        <a class="nav-link" href="../galeria/index.html">Galería</a>
+                    <li class="my-1 ms-3">
+                        <a href="https://www.instagram.com/honeymoon/" class="mx-2">
+                            <img src="../img/logoig.png" alt="Instagram" class="imagen">
+                        </a>
                     </li>
-                    <li class="nav-item mx-4">
-                        <a class="nav-link" href="../contacto/index.html">Contacto</a>
+                    <li class="my-1 ms-3">
+                        <a href="https://www.facebook.com/lanadelrey" class="mx-2">
+                            <img src="../img/logofb.png" alt="Facebook" class="imagen">
+                        </a>
                     </li>
                 </ul>
             </div>
-        </div>
-    </nav>
-    <header>
-    </header>
-    <footer class="nav justify-content-center mt-5">
-        <div class="container">
-            <ul class="list-unstyled d-flex flex-wrap justify-content-center">
-                <li class="my-1 ms-3">
-                    <a href="https://open.spotify.com/intl-es/artist/00FQb4jTyendYWaN8pK0wa?play=true&utm_source=open.spotify.com&utm_medium=open" class="mx-2">
-                        <img src="../img/logosp.png" alt="Spotify" class="img-custom">
-                    </a>
-                </li>
-                <li class="my-1 ms-3">
-                    <a href="https://www.youtube.com/lanadelrey" class="mx-2">
-                        <img src="../img/logoyt.png" alt="YouTube" class="img-custom">
-                    </a>
-                </li>
-                <li class="my-1 ms-3">
-                    <a href="https://www.tiktok.com/@lanadelrey" class="mx-2">
-                        <img src="../img/logott.png" alt="TikTok" class="img-custom">
-                    </a>
-                </li>
-                <li class="my-1 ms-3">
-                    <a href="https://www.instagram.com/honeymoon/" class="mx-2">
-                        <img src="../img/logoig.png" alt="Instagram" class="img-custom">
-                    </a>
-                </li>
-                <li class="my-1 ms-3">
-                    <a href="https://www.facebook.com/lanadelrey" class="mx-2">
-                        <img src="../img/logofb.png" alt="Facebook" class="img-custom">
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </footer>
+        </footer>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

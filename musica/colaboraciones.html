@@ -3,79 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Música</title>
+    <title>Música - Análisis de Álbumes</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
     <link href="../css/estilos.css" rel="stylesheet">
 </head>
-<body class="bg-custom">
-    <nav class="navbar navbar-expand-lg">
-        <div class="container fs-5 d-flex flex-column align-items-center">
-            <button class="navbar-toggler my-3" type="button" data-bs-toggle="collapse" data-bs-target="#navegador" aria-controls="navegador" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-md-center" id="navegador">
-                <ul class="navbar-nav d-flex flex-column align-items-center flex-lg-row">
-                    <li class="nav-item mx-4">
-                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+<body class="fondo">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container fs-5 d-flex flex-column align-items-center">
+                <button class="navbar-toggler my-3" type="button" data-bs-toggle="collapse" data-bs-target="#navegador">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-md-center" id="navegador">
+                    <ul class="navbar-nav d-flex flex-column align-items-center flex-lg-row">
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="../ldr/index.html">Lana del Rey</a>
+                        </li>
+                        <li class="nav-item dropdown mx-4 border-none d-flex flex-column align-items-center">
+                            <button class="nav-link dropdown-toggle active" type="button" data-bs-toggle="dropdown" aria-expanded="false">Música</button>
+                            <ul class="dropdown-menu border-0">
+                                <li><a class="dropdown-item" href="index.html">Análisis de sus álbumes</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item active" aria-current="page" href="#">Colaboraciones</a></li>
+                                <li><a class="dropdown-item" href="influencias.html">Influencias</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="../galeria/index.html">Galería</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="../contacto/index.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <div class="imagen-fondo d-flex align-items-center justify-content-center rounded-4">
+                <h1 class="text-white display-3 fw-semibold">Lana del Rey</h1>
+            </div>
+        </header>
+        <main class="fs-5">
+            <h4 class="text-center mt-5">Lana del Rey ft. The Weekend</h4>
+            <div class="card-group mb-5 d-flex flex-column flex-lg-row align-items-center">
+                <div class="card border-0 lanaytw order-2 order-lg-1">
+                    <div class="card-body text-lg-end">
+                        <h5 class="card-title">"Lust for Life" (2017)</h5>
+                        <p class="card-text">Esta es quizás su colaboración más conocida, lanzada como el sencillo principal del álbum del mismo nombre. La canción presenta una mezcla de pop soñador y letras que exploran temas de amor y esperanza en un mundo caótico. La combinación de las voces de Lana y The Weeknd crea una atmósfera etérea, y ambos artistas aportan su estilo característico, lo que la convierte en una de las canciones más memorables de ambos.</p>
+                    </div>
+                </div>
+                <div class="card border-0 rounded-4 order-1 order-lg-2">
+                    <img src="../img/lwuno.png" class="card-img-top rounded" alt="Lana del Rey y The Weekend">
+                </div>
+                <div class="card border-0 lanaytw order-3 order-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title">"Prisoner" (2019)</h5>
+                        <p class="card-text">Lana y The Weeknd también trabajaron juntos en "Prisoner", una canción incluida en el álbum Norman Fucking Rockwell. Aunque no se lanzó como sencillo, su combinación de voces y la producción cinematográfica resuenan con la temática de amor y desamor que ambos artistas suelen explorar.</p>
+                        <h5 class="card-title">"Nothing Is Wrong" (2021)</h5>
+                        <p class="card-text">Esta colaboración se lanzó en la promoción de Chemtrails over the Country Club. La canción presenta una producción suave y melódica, permitiendo que sus voces se entrelacen de manera hermosa.</p>
+                    </div>
+                </div>
+            </div>
+            <h4 class="text-center mt-5">Lana del Rey ft. A$AP Rocky</h4>
+            <div class="card-group mb-5 d-flex flex-column flex-lg-row align-items-center">
+                <div class="card border-0 lanaytw order-2 order-lg-1">
+                    <div class="card-body text-lg-end">
+                        <h5 class="card-title">"Riders" (2017)</h5>
+                        <p class="card-text">Esta canción se lanzó como parte de la banda sonora de The Fate of the Furious. La pista presenta una producción que mezcla elementos cinematográficos con ritmos de hip-hop, permitiendo que ambos artistas muestren sus estilos distintivos. La letra aborda temas de libertad y el deseo de escapar, encapsulando una sensación de aventura.</p>
+                        <h5 class="card-title">"Coast to Coast" (2017)</h5>
+                        <p class="card-text">Esta pista es una colaboración adicional de los dos, aunque no se lanzó oficialmente como sencillo. Sin embargo, se ha presentado en algunas presentaciones en vivo y es conocida por su producción suave y melódica.</p>
+                    </div>
+                </div>
+                <div class="card border-0 rounded-4 order-1 order-lg-2">
+                    <img src="../img/lar.png" class="card-img-top rounded" alt="Lana del Rey y The Weekend">
+                </div>
+                <div class="card border-0 lanaytw order-3 order-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title">"Summer Bummer" (2017)</h5>
+                        <p class="card-text">Una de sus colaboraciones más destacadas, "Summer Bummer" incluye a A$AP Rocky y Playboi Carti. La canción, lanzada como parte del álbum Lust for Life, combina la producción oscura y atmosférica de Lana con versos de A$AP, creando una mezcla de pop y hip-hop. La letra explora temas de amor, deseo y la experiencia de la vida nocturna, con una vibra sensual y despreocupada.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="nav justify-content-center mt-5 px-4 pt-4 rounded-top-4">
+            <div class="d-flex flex-row flex-wrap justify-content-center flex-lg-nowrap gap-4 p-3">
+                <h4 class="text-center">Seguila en todas sus redes!</h4>
+                <ul class="list-unstyled d-flex flex-wrap">
+                    <li class="my-1 ms-3">
+                        <a href="https://open.spotify.com/intl-es/artist/00FQb4jTyendYWaN8pK0wa?play=true&utm_source=open.spotify.com&utm_medium=open" class="mx-2">
+                            <img src="../img/logosp.png" alt="Spotify" class="imagen">
+                        </a>
                     </li>
-                    <li class="nav-item mx-4">
-                        <a class="nav-link" href="../ldr/index.html">Lana del Rey</a>
+                    <li class="my-1 ms-3">
+                        <a href="https://www.youtube.com/lanadelrey" class="mx-2">
+                            <img src="../img/logoyt.png" alt="YouTube" class="imagen">
+                        </a>
                     </li>
-                    <li class="nav-item dropdown mx-4 border-none d-flex flex-column align-items-center">
-                        <button class="nav-link dropdown-toggle active" type="button" data-bs-toggle="dropdown" aria-expanded="false">Música</button>
-                        <ul class="dropdown-menu border-0">
-                            <li><a class="dropdown-item" href="index.html">Análisis de sus álbumes</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item active" aria-current="page" href="#">Colaboraciones</a></li>
-                            <li><a class="dropdown-item" href="influencias.html">Influencias</a></li>
-                        </ul>
+                    <li class="my-1 ms-3">
+                        <a href="https://www.tiktok.com/@lanadelrey" class="mx-2">
+                            <img src="../img/logott.png" alt="TikTok" class="imagen">
+                        </a>
                     </li>
-                    <li class="nav-item mx-4">
-                        <a class="nav-link" href="../galeria/index.html">Galería</a>
+                    <li class="my-1 ms-3">
+                        <a href="https://www.instagram.com/honeymoon/" class="mx-2">
+                            <img src="../img/logoig.png" alt="Instagram" class="imagen">
+                        </a>
                     </li>
-                    <li class="nav-item mx-4">
-                        <a class="nav-link" href="../contacto/index.html">Contacto</a>
+                    <li class="my-1 ms-3">
+                        <a href="https://www.facebook.com/lanadelrey" class="mx-2">
+                            <img src="../img/logofb.png" alt="Facebook" class="imagen">
+                        </a>
                     </li>
                 </ul>
             </div>
-        </div>
-    </nav>
-    <header>
-    </header>
-    <footer class="nav justify-content-center mt-5">
-        <div class="container">
-            <ul class="list-unstyled d-flex flex-wrap justify-content-center">
-                <li class="my-1 ms-3">
-                    <a href="https://open.spotify.com/intl-es/artist/00FQb4jTyendYWaN8pK0wa?play=true&utm_source=open.spotify.com&utm_medium=open" class="mx-2">
-                        <img src="../img/logosp.png" alt="Spotify" class="img-custom">
-                    </a>
-                </li>
-                <li class="my-1 ms-3">
-                    <a href="https://www.youtube.com/lanadelrey" class="mx-2">
-                        <img src="../img/logoyt.png" alt="YouTube" class="img-custom">
-                    </a>
-                </li>
-                <li class="my-1 ms-3">
-                    <a href="https://www.tiktok.com/@lanadelrey" class="mx-2">
-                        <img src="../img/logott.png" alt="TikTok" class="img-custom">
-                    </a>
-                </li>
-                <li class="my-1 ms-3">
-                    <a href="https://www.instagram.com/honeymoon/" class="mx-2">
-                        <img src="../img/logoig.png" alt="Instagram" class="img-custom">
-                    </a>
-                </li>
-                <li class="my-1 ms-3">
-                    <a href="https://www.facebook.com/lanadelrey" class="mx-2">
-                        <img src="../img/logofb.png" alt="Facebook" class="img-custom">
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </footer>
+        </footer>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
