@@ -13,15 +13,11 @@
     height: 300px;
 }
 
-.boton{
-    background-color: #9d9a90b6;
-}
-
 .boton:hover{
     background-color: #4d4b4673;
 }
 
-#lanita, #vida, footer {
+#lanita, #vida, footer, .boton {
     background-color: #9d9a90b6;
 }
 
@@ -29,24 +25,35 @@
     width: 500px;
 }
 
-.zoom {
+.card {
     transition: transform 0.3s ease;
 }
-
-.zoom:hover {
+.card:hover {
     transform: scale(1.1);
+}
+
+.card-img {
+    transition: filter 0.3s ease;
+}
+.card-title {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card:hover .card-img {
+    filter: blur(3px);
+}
+.card:hover .card-title {
+    opacity: 1;
 }
 
 .lanaytw{
     background-color: #ebe6d800;
 }
 
-
-.borde-border-top{
-    border-top: 2px solid #9d9a9031;
-}
-
 .imagen{
     max-width: 30px;
 }
-
