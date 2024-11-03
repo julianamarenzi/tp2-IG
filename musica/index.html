@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Música - Análisis de Álbumes</title>
+    <title>Música</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +26,7 @@
                             <a class="nav-link" href="../ldr/index.html">Lana del Rey</a>
                         </li>
                         <li class="nav-item mx-4">
-                            <a class="nav-link" href="#">Música</a>
+                            <a class="nav-link active" aria-current="page" href="#">Música</a>
                         </li>
                         <li class="nav-item mx-4">
                             <a class="nav-link" href="../galeria/index.html">Galería</a>
@@ -42,7 +42,7 @@
             <div class="imagen-fondo d-flex align-items-center justify-content-center rounded-4">
                 <h1 class="text-white display-3 fw-semibold">Lana del Rey</h1>
             </div>
-            <div class="d-flex flex-row flex-wrap flex-lg-nowrap justify-content-around align-items-center gap-5 mt-5 p-4 text-center">
+            <div class="d-flex flex-column flex-wrap flex-lg-row flex-lg-nowrap justify-content-around align-items-center gap-5 mt-5 p-4 text-center">
                 <div class="w-25">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#4d4b46" class="bi bi-music-note-list mb-2" viewBox="0 0 16 16">
                         <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2"/>
@@ -50,108 +50,109 @@
                         <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1z"/>
                         <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5m0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5m0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5"/>
                     </svg>
-                    <p>Explora la colección de EPs, donde la artista comparte un vistazo íntimo a su música y estilo único.</p>
-                    <a href="eps.html" class="btn boton">Ver más.</a>
-                </div>
-                <div class="w-25">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#4d4b46" class="bi bi-heart mb-2" viewBox="0 0 16 16">
-                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
-                    </svg>
                     <p>Descubre las colaboraciones de Lana del Rey con otros artistas.</p>
                     <a href="colaboraciones.html" class="btn boton">Ver más.</a>
+                </div>
+                <div class="w-25">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#4d4b46" class="bi bi-award mb-2" viewBox="0 0 16 16">
+                        <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z"/>
+                        <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z"/>
+                    </svg>
+                    <p>Explora la impresionante trayectoria de Lana del Rey a través de sus premios y reconocimientos.</p>
+                    <a href="premios.html" class="btn boton">Ver más.</a>
                 </div>
             </div>
         </header>
         <main class="fs-5">
             <section>
-                <h2 class="text-center">Discografía</h2>
+                <h2 class="text-center titulo rounded-4 p-2 mt-4">Discografía</h2>
                 <div class="d-flex flex-wrap justify-content-center my-5 gap-4">
-                    <div class="card border-0">
+                    <div class="card border-0 cards2">
                         <img src="../img/imagen1.png" alt="Álbum Sirens Lana del Rey" class="card-img">
                         <div class="card-img-overlay">
                             <h5 class="card-title text-white text-center fs-3">Sirens (2006) <span class="fst-italic">retirado</span></h5>
                         </div>
                     </div>
-                    <div class="card border-0">
+                    <div class="card border-0 cards2">
                         <img src="../img/imagen2.png" alt="Álbum Lana Del Ray A.K.A. Lizzy Grant" class="card-img">
                         <div class="card-img-overlay">
                             <h5 class="card-title text-white text-center fs-3">Lana Del Ray A.K.A. Lizzy Grant (2010) <span class="fst-italic">retirado</span></h5>
                         </div>
                     </div>
-                    <div class="card border-0">
-                        <a href="https://open.spotify.com/intl-es/album/4vXt6IpMcSnqonljffWlMI?si=DhUEccPtRsKLhQ7pOMOhDw">
+                    <div class="card border-0 cards2">
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_kUV7-KhhSORo6BahEORerSupsOtipdSds&si=4f3wczoM12HKMrge">
                             <img src="../img/imagen3.png" alt="Álbum Born to Die Lana del Rey" class="card-img">
                             <div class="card-img-overlay">
                                 <h5 class="card-title text-white text-center fs-3">Born to Die (2012)</h5>
                             </div>
                         </a>
                     </div>
-                    <div class="card border-0">
-                        <a href="https://open.spotify.com/intl-es/album/5VoeRuTrGhTbKelUfwymwu?si=uAm5RxZWRPC_Auhu-oc_GA">
+                    <div class="card border-0 cards2">
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_mArt8nmFajrQIeMDxnuRsoY_Pg_yqkjuc&si=ZzxgwsOcnhDEPjs6">
                             <img src="../img/imagen4.png" alt="Álbum Born to Die - The Paradise Edition Lana del Rey" class="card-img">
                             <div class="card-img-overlay">
                                 <h5 class="card-title text-white text-center fs-3">Born to Die - The Paradise Edition (2012)</h5>
                             </div>
                         </a>
                     </div>
-                    <div class="card border-0">
-                        <a href="https://open.spotify.com/intl-es/album/1ORxRsK3MrSLvh7VQTF01F?si=JadQZy3dSVWZ9qtS53EOsQ">
+                    <div class="card border-0 cards2">
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_kTaMMD_PVW5yvVT6u7YX1X2vvLXNp5_ec">
                             <img src="../img/imagen5.png" alt="Álbum Ultraviolence Lana del Rey" class="card-img">
                             <div class="card-img-overlay">
                                 <h5 class="card-title text-white text-center fs-3">Ultraviolence (2014)</h5>
                             </div>
                         </a>
                     </div>
-                    <div class="card border-0">
-                        <a href="https://open.spotify.com/intl-es/album/2DpEBrjCur1ythIZ10gJWw?si=GjNtGL4hQyiL_wCD0KLcBg">
+                    <div class="card border-0 cards2">
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_mLThar64PDjVJybNAr0g-UAxXRa3ktcSA&si=n3j-yrLEyEie9mbn">
                             <img src="../img/imagen6.png" alt="Álbum HoneyMoon Lana del Rey" class="card-img">
                             <div class="card-img-overlay">
                                 <h5 class="card-title text-white text-center fs-3">HoneyMoon (2015)</h5>
                             </div>
                         </a>
                     </div>
-                    <div class="card border-0">
-                        <a href="https://open.spotify.com/intl-es/album/7xYiTrbTL57QO0bb4hXIKo?si=JvEgTc6YScKj03FRkwABAA">
+                    <div class="card border-0 cards2">
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_nW-nuyvdFiqxH03YLB-6j22DqEc3sRQp0&si=nC3u0GiR8TB5NnGu">
                             <img src="../img/imagen7.png" alt="Álbum Lust For Life Lana del Rey" class="card-img">
                             <div class="card-img-overlay">
                                 <h5 class="card-title text-white text-center fs-3">Lust for Life (2017)</h5>
                             </div>
                         </a>
                     </div>
-                    <div class="card border-0">
-                        <a href="https://open.spotify.com/intl-es/album/5XpEKORZ4y6OrCZSKsi46A?si=XDFff4bcRY238eJNHEtpqg">
+                    <div class="card border-0 cards2">
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_kXEi_1ry11kHAe71Z36AShGLhVXejbK38&si=UrIhpTXPA5OXlcEs">
                             <img src="../img/imagen8.png" alt="Álbum Norman Fucking Rockwell! Lana del Rey" class="card-img">
                             <div class="card-img-overlay">
                                 <h5 class="card-title text-white text-center fs-3">Norman Fucking Rockwell! (2019)</h5>
                             </div>
                         </a>
                     </div>
-                    <div class="card border-0">
-                        <a href="https://open.spotify.com/show/3DIkc5GRg2bP8cm6UP0N65?si=726447ae36914fa3">
+                    <div class="card border-0 cards2">
+                        <a href="https://www.youtube.com/watch?v=U39fRnNUurc&list=PL00JOSgEjPoErSDoMXsLz_NWPrz7a33HK">
                             <img src="../img/imagen9.png" alt="AudioLibro Violet Bent Backwards over the Grass Lana del Rey" class="card-img">
                             <div class="card-img-overlay">
                                 <h5 class="card-title text-white text-center fs-3">Violet Bent Backwards over the Grass (2020) <span class="fst-italic">audiolibro</span></h5>
                             </div>
                         </a>
                     </div>
-                    <div class="card border-0">
-                        <a href="https://open.spotify.com/intl-es/album/6QeosPQpJckkW0Obir5RT8?si=mDMLZ2NiQj6nKgP5I-pUew">
+                    <div class="card border-0 cards2">
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_kmEKSBdo7rCLJIuYp2o0N5nLPi2fiDOas&si=L8RGd1nJ8RM0VdIL">
                             <img src="../img/discotres.png" alt="Álbum Chemtrails Over The Country Club Lana del Rey" class="card-img">
                             <div class="card-img-overlay">
                                 <h5 class="card-title text-white text-center fs-3">Chemtrails Over The Country Club (2021)</h5>
                             </div>
                         </a>
                     </div>
-                    <div class="card border-0">
-                        <a href="https://open.spotify.com/intl-es/album/2wwCc6fcyhp1tfY3J6Javr?si=ZtdIs0bKSH-bxwTpBNXBSQ">
+                    <div class="card border-0 cards2">
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_m-2ks002cbXbtfo6eWcet1QnlwO-my-mE&si=esmow42cAMoYXMhs">
                             <img src="../img/discodos.png" alt="Álbum Blue Banisters Lana del Rey" class="card-img">
                             <div class="card-img-overlay">
                                 <h5 class="card-title text-white text-center fs-3">Blue Banisters (2021)</h5>
                             </div>
                         </a>
                     </div>
-                    <div class="card border-0">
-                        <a href="https://open.spotify.com/intl-es/album/5HOHne1wzItQlIYmLXLYfZ?si=7zy4hg3xSumpWdKN7BM3ig">
+                    <div class="card border-0 cards2">
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_mVornEaauvDf9xIUpW7OmceH6_OwO_OoI&si=o4kM6IsLDpM7N2Wa">
                             <img src="../img/discouno.png" alt="Álbum Did You Know That There's a Tunnel Under Ocean Blvd Lana del Rey" class="card-img">
                             <div class="card-img-overlay">
                                 <h5 class="card-title text-white text-center fs-3">Did You Know That There's a Tunnel Under Ocean Blvd (2023)</h5>

@@ -17,7 +17,7 @@
     background-color: #4d4b4673;
 }
 
-#lanita, #vida, footer, .boton {
+#lanita, #vida, footer, .boton, .premios, .titulo {
     background-color: #9d9a90b6;
 }
 
@@ -25,17 +25,17 @@
     width: 500px;
 }
 
-.card {
+.cards1, .cards2 {
     transition: transform 0.3s ease;
 }
-.card:hover {
+.cards1:hover, .cards2:hover {
     transform: scale(1.1);
 }
 
-.card-img {
+.cards2 img {
     transition: filter 0.3s ease;
 }
-.card-title {
+.cards2 h5 {
     opacity: 0;
     transition: opacity 0.3s ease;
     position: absolute;
@@ -43,10 +43,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.card:hover .card-img {
+.cards2:hover img {
     filter: blur(3px);
 }
-.card:hover .card-title {
+.cards2:hover h5 {
     opacity: 1;
 }
 
