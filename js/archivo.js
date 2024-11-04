@@ -1,10 +1,21 @@
-// ------------- Interacción -------------
+// ------------- Interacción contacto -------------
 
+document.querySelectorAll('.botonFinal').forEach(button => {
+    button.addEventListener('click', () => {
+        const text = button.nextElementSibling;
 
+        text.classList.toggle('d-none');
+        text.classList.toggle('show');
+
+        if (text.classList.contains('show')) {
+            button.textContent = 'Ver menos...';
+        } else {
+            button.textContent = 'Ver más...';
+        }
+    });
+});
 
 // ------------- Validación de Formulario -------------
-
-// const botonEnviar = document.querySelector('.boton-enviar');
 
 (() => {
     'use strict'
