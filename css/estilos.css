@@ -17,7 +17,7 @@
     background-color: #4d4b4673;
 }
 
-#lanita, #vida, footer, .boton, .premios, .titulo {
+#lanita, #vida, footer, .boton, .premios, .titulo, .videofondo {
     background-color: #9d9a90b6;
 }
 
@@ -25,11 +25,11 @@
     width: 500px;
 }
 
-.cards1, .cards2 {
-    transition: transform 0.3s ease;
+.cards1, .cards2, .videografi {
+    transition: transform 0.5s ease;
 }
-.cards1:hover, .cards2:hover {
-    transform: scale(1.1);
+.cards1:hover, .cards2:hover, .videografi:hover {
+    transform: scale(1.05);
 }
 
 .cards2 img {
@@ -48,6 +48,13 @@
 }
 .cards2:hover h5 {
     opacity: 1;
+}
+
+.galeria img {
+    transition: 0.3s linear;
+}
+.galeria img:hover {
+    filter: drop-shadow(5px 5px 10px rgb(54, 54, 54));
 }
 
 .lanaytw{
