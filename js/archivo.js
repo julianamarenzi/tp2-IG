@@ -2,12 +2,12 @@
 
 document.querySelectorAll('.botonFinal').forEach(button => {
     button.addEventListener('click', () => {
-        const text = button.nextElementSibling;
+        const texto = button.nextElementSibling;
 
-        text.classList.toggle('d-none');
-        text.classList.toggle('show');
+        texto.classList.toggle('d-none');
+        texto.classList.toggle('show');
 
-        if (text.classList.contains('show')) {
+        if (texto.classList.contains('show')) {
             button.textContent = 'Ver menos...';
         } else {
             button.textContent = 'Ver más...';
